@@ -1,0 +1,201 @@
+@keyframes sa1{
+    0%{background-color: lightblue;box-shadow: -5px 5px 10px gray ;}
+    50%{background-color: lightgray;box-shadow: -5px 10px 15px gray ;}
+    100%{background-color: lightblue;box-shadow: -5px 5px 10px gray ;}
+
+}
+@keyframes imgr1{
+    0%{
+
+        transform: rotate(-25deg) translate(0px,-50px);
+    }
+
+    100%{
+        transform: rotate(-25deg) translate(0px,0px);
+    }
+}
+@keyframes dma {
+    0%{color: gray;}
+    50%{color: royalblue;}
+    100%{color: gray;}
+
+}
+@keyframes wsa {
+    0%{font-size: 14px;}
+    50%{font-size: 20px;color: royalblue}
+    100%{font-size: 14px;}
+}
+@keyframes ws2a {
+    0%{font-size: 14px;}
+    50%{font-size: 20px;color: royalblue}
+    100%{font-size: 14px;}
+}
+@keyframes ws3a {
+    0%{font-size: 14px;}
+    50%{font-size: 20px;color: royalblue}
+    100%{font-size: 14px;}
+}
+@keyframes cvimga{
+    0%{
+
+        transform: translate(-200px,0px) rotate(12deg);
+    }
+    100%{
+        transform: translate(0px,0px) rotate(-5deg);
+    }
+}
+.mheader{
+    text-align: center;
+}
+.ws1{
+    color: gray;
+    font-size: 14px;
+    animation-name: wsa;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+.ws2{
+    color: gray;
+    font-size: 14px;
+    animation-name: ws2a;
+    animation-delay: 5s;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+.ws3{
+    color: gray;
+    font-size: 14px;
+    animation-name: ws3a;
+    animation-delay: 10s;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+.myphoto{
+    margin :10%;
+    border-radius: 50%;
+    max-width: 150px;
+    max-height: 150px;
+    box-shadow: -3px 3px 10px gray ;
+    transform: rotate(-25deg) translate(0px,0px);
+    animation-name: imgr1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+
+}
+.container {
+
+    min-height: 750px;
+}
+
+.section1{
+
+    background-color: lightblue;
+    box-shadow: -3px 3px 10px gray ;
+    animation-name: sa1;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease;
+    min-height: 200px;
+
+}
+.DM{
+    font-size: 250%;
+    color: royalblue;
+    animation-name: dma;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+.contact-me{
+    text-align: center;
+    margin: 25%;
+}
+.section2{
+    margin-top: 20px;
+    min-height: 700px;
+    background: linear-gradient(to bottom right,silver,white);
+    box-shadow: 1px 1px 10px gray ;
+}
+.section3{
+    margin-top: 20px;
+    min-height: 200px;
+    background: linear-gradient(to bottom right,cornsilk,white);
+    box-shadow: 1px 1px 10px gray ;
+}
+.cvimg{
+    transform: translate(0px,0px);
+    animation-name: cvimga;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    width: 40px;
+    height: 60px;
+    color: dodgerblue;
+    background-image: url('./my/img/cvico.png');
+    background-size: 40px 60px;
+}
+.l1{
+    color: dodgerblue;
+    margin: 5%;
+}
+.l2{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.a1{
+    border-radius: 10% 10%;
+    border: dashed;
+    border-color: dodgerblue;
+    color: dodgerblue;
+    backface-visibility: hidden;
+}
+.span1{
+    color: transparent;
+}
+.anytitle{
+    color: dodgerblue;
+    text-align: left;
+}
+.row {
+    margin-left: 20px;
+}
+.col-md-8{
+    font-size:200%;
+    color: gold;
+}
+.stitle{
+    font-size:150%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sociali{
+    color: royalblue;
+    font-size: 40px;
+    display: inline-table ;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 5px;
+}
+.consociali{
+    display: inline-table;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.consociali:hover{
+    display: inline-table;
+    align-items: center;
+    background: silver;
+    border-color: lightgray;
+    border: 1px;
+
+}
+.consociali:active{
+    display: inline-table;
+    align-items: center;
+    background: darkblue;
+    border-color: lightgray;
+    border: 1px;
+}
