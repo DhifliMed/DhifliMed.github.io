@@ -130,7 +130,7 @@
     width: 40px;
     height: 60px;
     color: dodgerblue;
-    background-image: url('./my/img/cvico.png');
+    background-image: url('../img/cvico.png');
     background-size: 40px 60px;
 }
 .l1{
